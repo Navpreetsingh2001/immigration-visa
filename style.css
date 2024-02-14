@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+#navbar_container ul{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: flex-end;
+    height: 80px;
+    background-color: #B4B4B8;
+    
+    
+    
+}
+#navbar_container li{
+    /* border: 2px solid red; */
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar_container a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    
+}
+#body_container{
+    height: 100vh;
+    background-image: 100%;
+    background:rgba(0,0,0,0.7)url(images/bg.jpg);
+    background-blend-mode: darken;
+    /* border: 2px solid red; */
+    background-size: cover;
+    
+    
+    
+}
+
+/* conatact page  */
+#contactUs{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+.contactContent{
+    /* border: 2px solid blue; */
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactContent img{
+   height: 35rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+#contactBox{
+    border: 2px solid grey;
+    height: 80%;
+    width: 60%;
+    border-radius: 20px;
+    
+
+}
+
+/* form  */
+#form_heading{
+    font-size: 25px;
+    /* border: 2px solid red; */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 80%;
+}
+#form input{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+#subpart_form{
+    display: flex;
+    width: 88%;
+    /* border: 2px solid red; */
+    
+}
+.state_country{
+    width: 100%;
+    display: flex;
+    height: 2rem;
+    /* margin: 10px 0px; */
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    /* border: 2px solid red; */
+}
+.states{
+    width: 50%;
+    
+}
+#country-state{
+    height: 2rem;
+
+}
+.country{
+    width: 50%;
+    height: 2rem;
+    /* border: 2px solid red;  */
+    
+}
+#immigrate{
+    width: 100%;
+    height: 2rem;
+    
+}
+#age_education{
+    display: flex;
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 2rem;
+    justify-content: space-between;
+}
+#education{
+    /* border: 2px solid saddlebrown; */
+    width: 50%;
+    height: 2rem;
+}
+#agee{
+    /* border: 2px solid saddlebrown; */
+    width: 50%;
+    height: 2rem;
+    
+}
+#Education{
+    height: 2rem;
+    width: 100%;
+}
+#age{
+    width: 100%;
+    height: 2rem;
+}
+
+
+/* yourDestination  */
+
+#yourDestination{
+    height: 100vh;
+    /* border: 2px solid brown; */
+}
+#destinationHeading{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    margin-bottom:30px ;
+}
+#desinationContent{
+    /* border: 2px solid red; */
+    height: 90vh;
+}
+.row{
+    /* border: 2px solid pink; */
+    height: 40%;
+    display: flex;
+    margin: 0px 8rem;
+    
+}
+.yourlocation{
+    /* border: 2px solid purple; */
+    height: 85%;
+    width: 100%;
+    margin: 10px;
+
+}
+#canada{
+    background-image: url(images/des.jpg);
+    background-size: cover;
+    border-radius: 7px;
+    transition: .2s;
+    background-color: rgba(0,0,0,0.4);
+    
+    
+}
+#canada:hover{
+    transform: scale(1.11);
+    cursor: pointer;
+    background-blend-mode: darken;
+    
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(167, 161, 161)); */
+}
+#img1-name{
+    /* border: 2px solid red; */
+    height: 100%;
+    text-align: center;
+    display: flex;
+     justify-content: center;
+    margin: auto; 
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    font-size: 0px;
+    transition: .4s ease-in;
+    
+    
+    
+}
+#img1-name:hover{
+    transform: scale(1.11);
+    font-size: 30px;
+
+}
